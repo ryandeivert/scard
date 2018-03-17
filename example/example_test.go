@@ -1,9 +1,10 @@
-package scard_test
+package example
 
 import (
 	"fmt"
-	"github.com/ebfe/scard"
 	"os"
+
+	"github.com/ebfe/scard"
 )
 
 func die(err error) {
